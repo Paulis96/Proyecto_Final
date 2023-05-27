@@ -4,24 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Styles/estilos.css">
     <title>Quesería Demísinti</title>
 </head>
 <body>
     <header>
-        <section>
-            <img src="./Assets/Images/Logo150x150.png" alt="Logo">
+        <section class="main-container">
+            <section class="logo-container">
+                <img src="./Assets/Images/Logo.png" alt="Logo">
+            </section>
+            <section class="slogan-container">
+                <p>"Un bocado de felicidad en cada producto"</p>
+            </section>
+            <nav>
+                <a href="./HTML/1_Quienes-somos.html">Quienes Somos</a>
+                <a href="./HTML/2_Productos.html">Productos</a>
+                <a href="./HTML/3_Recetas.html">Recetas</a>
+                <a href="./HTML/4_Días-de-entrega.html">Días de entrega</a>
+                <a href="./HTML/5_Ubicación.html">Ubicación</a>
+                <a href="./HTML/6_Contáctenos.html">Contáctenos</a>
+            </nav>
         </section>
-        <section>
-            <p>"Un bocado de felicidad en cada producto"</p>
-        </section>
-        <nav>
-            <a href="./HTML/1_Quienes-somos.html">Quienes Somos |</a>
-            <a href="./HTML/2_Productos.html">Productos |</a>
-            <a href="./HTML/3_Recetas.html">Recetas |</a>
-            <a href="./HTML/4_Días-de-entrega.html">Días de entrega |</a>
-            <a href="./HTML/5_Ubicación.html">Ubicación |</a>
-            <a href="./HTML/6_Contáctenos.html">Contáctenos |</a>
-        </nav>
     </header>
     <main>
         <section>
@@ -29,41 +32,75 @@
             <p>¡Bienvenidos a nuestra tienda de quesos y productos lácteos! Aquí encontrarás una amplia variedad de quesos, además de otros productos lácteos como leche y natilla. Todos nuestros productos son de la más alta calidad y están elaborados con los mejores ingredientes. Nos apasiona el mundo de los quesos y queremos compartir nuestra pasión contigo, por eso ofrecemos degustaciones y asesoramiento para ayudarte a encontrar el producto que mejor se adapte a tus gustos y necesidades. ¡Te invitamos a visitarnos y a disfrutar de nuestros deliciosos productos!</p>
         </section>
         <section>
-            <div>
-                <img src="./Assets/Images/ternero.jpg" alt="Ternero">
-            </div>
-            <div>
-                <img src="./Assets/Images/vacas_leche.jpg" alt="Vacas y leche">
-            </div>
-            <div>
-                <img src="./Assets/Images/many.jpg" alt="Multiples animales">
-            </div>
-            <div>
-                <img src="./Assets/Images/queso_1.jpg" alt="Queso">
+            <div class="slide">
+                <div class="slide-inner">
+                    <input class="slide-open" type="radio" id="slide-1" 
+                          name="slide" aria-hidden="true" hidden="" checked="checked">
+                    <div class="slide-item">
+                        <img src="./Assets/Images/carrusel/leche.jpg">
+                    </div>
+                    <input class="slide-open" type="radio" id="slide-2" 
+                          name="slide" aria-hidden="true" hidden="">
+                    <div class="slide-item">
+                        <img src="./Assets/Images/carrusel/queso.jpg">
+                    </div>
+                    <input class="slide-open" type="radio" id="slide-3" 
+                          name="slide" aria-hidden="true" hidden="">
+                    <div class="slide-item">
+                        <img src="./Assets/Images/carrusel/vacas.jpg">
+                    </div>
+                    <label for="slide-3" class="slide-control prev control-1">‹</label>
+                    <label for="slide-2" class="slide-control next control-1">›</label>
+                    <label for="slide-1" class="slide-control prev control-2">‹</label>
+                    <label for="slide-3" class="slide-control next control-2">›</label>
+                    <label for="slide-2" class="slide-control prev control-3">‹</label>
+                    <label for="slide-1" class="slide-control next control-3">›</label>
+                    <ol class="slide-indicador">
+                        <li>
+                            <label for="slide-1" class="slide-circulo">•</label>
+                        </li>
+                        <li>
+                            <label for="slide-2" class="slide-circulo">•</label>
+                        </li>
+                        <li>
+                            <label for="slide-3" class="slide-circulo">•</label>
+                        </li>
+                    </ol>
+                </div>
             </div>
         </section>
-        <section>
-            <p>En cada uno de nuestros productos, tienes garantizado:</p>
-            <ul>
-                <li>Un producto sin ingredientes artificiales, conservantes ni aditivos químicos.</li>
-                <li>Produccción amigable con el ambiente.</li>
-                <li>Frescura.</li>
-                <li>Sabor y nutrición.</li>
-            </ul>
-        </section>
-        <section>
-            <a href="https://api.whatsapp.com/send?phone=50684667600&text=!Qué%20rico%20comer%20queso!">Dale click acá para adquirir nuestros productos</a>
+        <section id="hola">
+            <div class="contenedor-titulo">
+                <h2 class="titulo">En cada uno de nuestros productos, tienes garantizado:</h2>
+                <div class="lista-1">
+                    <ul>
+                        <li>Un producto sin ingredientes artificiales, conservantes ni aditivos químicos.</li>
+                        <li>Produccción amigable con el ambiente.</li>
+                        <li>Frescura.</li>
+                        <li>Sabor y nutrición.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="data-container">
+                <span class="btn"><a href="https://api.whatsapp.com/send?phone=50684667600&text=!Qué%20rico%20comer%20queso!">Dale click acá para adquirir nuestros productos</a></span>
+            </div>
         </section>
     </main>
-    <footer>
+    <footer class="final">
         <p>¡Síguenos tambien en nuestras redes sociales!</p>
-        <img src="./Assets/Images/instagram-png.png" alt="Logo Instagram">
-        <a href="https://msng.link/o?Queseria_Demisinti_96=ig">Quesería_Demísinti</a>
-        <br>
-        <img src="./Assets/Images/Logo_de_Facebook.png" alt="Logo Facebook">
-        <a href="https://www.facebook.com/Quesería_Demísinti.96Vc?mibextid=LQQJ4d">Quesería_Demísinti</a>
-        <br>
-        <p>Derechos Reservados &copy; Paula Valverde 2023</p>
+        <div class="social-media">
+            <div class="social-media-box">
+                <a href="https://www.facebook.com/Quesería_Demísinti.96Vc?mibextid=LQQJ4d">
+                    <img src="./Assets/Images/facebook.png" alt="Icono De Facebook">
+                </a>
+            </div>
+            <div class="social-media-box">
+                <a href="https://msng.link/o?Queseria_Demisinti_96=i">
+                    <img src="./Assets/Images/instagram.png" alt="Icono De Instagram">
+                </a>
+            </div>
+        </div>
+        <p>Todos los derechos reservados &copy; <strong>Paula Valverde</strong></p> 
     </footer>
 </body>
 </html>
