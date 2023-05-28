@@ -5,27 +5,25 @@
     src: url(../Assets/Fonts/Poppins-Light.ttf) format("truetype");
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: "Poppins";
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.main-container{
+.main-container {
     max-width: 1200px;
     width: 90%;
     height: inherit;
 }
 
-/* ESTILOS GLOBALES */
-
 /* ESTILOS HEADER */
 
-header{
+header {
     height: 150px;
     width: 100%;
     background-color: #5A63D4;
@@ -36,7 +34,7 @@ header{
     z-index: 2000;
 }
 
-header .main-container nav{
+header .main-container nav {
     display: flex;
     flex-direction: row;
     height: inherit;
@@ -45,26 +43,26 @@ header .main-container nav{
     align-items: center;
 }
 
-header .main-container nav{
+header .main-container nav ul {
     list-style: none;
     display: flex;
     flex-direction: row;
 }
 
-header .main-container nav a{
+header .main-container nav a {
     color: rgb(253, 253, 253);
     padding: 19px;
     font-size: larger;
     margin-bottom: 60px;
 }
 
-header .main-container nav a:hover{
+header .main-container nav a:hover {
     color: #EFB03F;
     font-weight: bolder;
     font-size: 30px;
 }
 
-.logo-container{
+.logo-container {
     position: absolute;
     display: flex;
     height: inherit;
@@ -74,15 +72,12 @@ header .main-container nav a:hover{
 }
 
 .logo-container img {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
     border-radius: 50%;
     height: 125px;
     width: 125px;
 }
 
-.slogan-container{
+.slogan-container {
     display: flex;
     color: #EFB03F;
     flex-direction: column;
@@ -91,24 +86,22 @@ header .main-container nav a:hover{
     font-size: large;
 }
 
-/* ESTILOS HEADER */
-
 /* MAIN */
-#Contáctenos{
+
+#Contáctenos {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-bottom: 45px;
     padding-top: 150px;
-
 }
 
-#Contáctenos .titulo-contacto{
+#Contáctenos .titulo-contacto {
     margin-top: 45px;
 }
 
-#Contáctenos .form-container{
+#Contáctenos .form-container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -116,7 +109,8 @@ header .main-container nav a:hover{
     margin-top: 1%;
 }
 
-#Contáctenos form input, #Contáctenos form textarea{
+#Contáctenos form input,
+#Contáctenos form textarea {
     font-family: Quicksand;
     font-size: 16px;
     display: block;
@@ -129,27 +123,27 @@ header .main-container nav a:hover{
     outline: none;
 }
 
-#Contáctenos .form-container .boton{
+#Contáctenos .form-container .boton {
     cursor: pointer;
 }
 
-#social-media{
+#social-media {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
-#social-media .social-media-box{
+#social-media .social-media-box {
     margin: 20px;
 }
 
-#social-media .social-media-box img{
+#social-media .social-media-box img {
     width: 50px;
     height: 50px;
 }
 
-h2{
+h2 {
     display: flex;
     flex-direction: row;
     justify-content: center;

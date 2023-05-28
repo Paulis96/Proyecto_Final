@@ -5,27 +5,25 @@
     src: url(../Assets/Fonts/Poppins-Light.ttf) format("truetype");
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: "Poppins";
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.main-container{
+.main-container {
     max-width: 1200px;
     width: 90%;
     height: inherit;
 }
 
-/* ESTILOS GLOBALES */
-
 /* ESTILOS HEADER */
 
-header{
+header {
     height: 150px;
     width: 100%;
     background-color: #5A63D4;
@@ -36,7 +34,7 @@ header{
     z-index: 2000;
 }
 
-header .main-container nav{
+header .main-container nav {
     display: flex;
     flex-direction: row;
     height: inherit;
@@ -45,26 +43,26 @@ header .main-container nav{
     align-items: center;
 }
 
-header .main-container nav{
+header .main-container nav ul {
     list-style: none;
     display: flex;
     flex-direction: row;
 }
 
-header .main-container nav a{
+header .main-container nav a {
     color: rgb(253, 253, 253);
     padding: 19px;
     font-size: larger;
     margin-bottom: 60px;
 }
 
-header .main-container nav a:hover{
+header .main-container nav a:hover {
     color: #EFB03F;
     font-weight: bolder;
     font-size: 30px;
 }
 
-.logo-container{
+.logo-container {
     position: absolute;
     display: flex;
     height: inherit;
@@ -82,7 +80,7 @@ header .main-container nav a:hover{
     width: 125px;
 }
 
-.slogan-container{
+.slogan-container {
     display: flex;
     color: #EFB03F;
     flex-direction: column;
@@ -91,12 +89,9 @@ header .main-container nav a:hover{
     font-size: large;
 }
 
-/* ESTILOS HEADER */
+/* MAIN */
 
-/* MAIN*/
-
-
-#entrega{
+#entrega {
     width: 100%;
     height: 560px;
     margin: 25px 0px;
@@ -107,13 +102,14 @@ header .main-container nav a:hover{
     padding-top: 250px;
 }
 
-#entrega .contenedor-cards{
+#entrega .contenedor-cards {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-#entrega .contenedor-cards .cards{
+
+#entrega .contenedor-cards .cards {
     width: 400px;
     height: 400px;
     padding: 2em 1.5em;
@@ -121,23 +117,25 @@ header .main-container nav a:hover{
     border-radius: 5px;
     box-shadow: 0 0 35px #5A63D4;
     cursor: pointer;
-    transition: 0.5;
+    transition: 0.5s;
 }
-.cards h4{
+
+.cards h4 {
     font-size: 35px;
     font-weight: bolder;
     color: #262262;
     padding-bottom: 30px;
 }
 
-.cards p{
+.cards p {
     line-height: 2.5;
 }
-.cards:hover{
+
+.cards:hover {
     background-color: #EFB03F;
 }
 
-.cards:hover p{
+.cards:hover p {
     color: bisque;
 }
 

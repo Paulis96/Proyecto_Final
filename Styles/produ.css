@@ -5,17 +5,17 @@
     src: url(../Assets/Fonts/Poppins-Light.ttf) format("truetype");
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: "Poppins";
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.main-container{
+.main-container {
     max-width: 1200px;
     width: 90%;
     height: inherit;
@@ -25,7 +25,7 @@ a{
 
 /* ESTILOS HEADER */
 
-header{
+header {
     height: 150px;
     width: 100%;
     background-color: #5A63D4;
@@ -36,7 +36,7 @@ header{
     z-index: 2000;
 }
 
-header .main-container nav{
+header .main-container nav {
     display: flex;
     flex-direction: row;
     height: inherit;
@@ -45,26 +45,26 @@ header .main-container nav{
     align-items: center;
 }
 
-header .main-container nav{
+header .main-container nav {
     list-style: none;
     display: flex;
     flex-direction: row;
 }
 
-header .main-container nav a{
+header .main-container nav a {
     color: rgb(253, 253, 253);
     padding: 19px;
     font-size: larger;
     margin-bottom: 60px;
 }
 
-header .main-container nav a:hover{
+header .main-container nav a:hover {
     color: #EFB03F;
     font-weight: bolder;
     font-size: 30px;
 }
 
-.logo-container{
+.logo-container {
     position: absolute;
     display: flex;
     height: inherit;
@@ -82,7 +82,7 @@ header .main-container nav a:hover{
     width: 125px;
 }
 
-.slogan-container{
+.slogan-container {
     display: flex;
     color: #EFB03F;
     flex-direction: column;
@@ -95,11 +95,11 @@ header .main-container nav a:hover{
 
 /* PRODUCTOS */
 
-main{
+main {
     background-color: #EFB03F;
 }
 
-#productos-1{
+#productos-1 {
     height: 900px;
     width: auto;
     padding-top: 200px;
@@ -107,7 +107,7 @@ main{
     align-items: center;
 }
 
-#PE{
+#PE {
     height: 600px;
     width: auto;
     padding-top: 200px;
@@ -115,7 +115,7 @@ main{
     align-items: center;
 }
 
-#PT{
+#PT {
     height: 700px;
     width: auto;
     padding-top: 200px;
@@ -124,14 +124,14 @@ main{
     border-bottom: 10px solid #5A63D4;
 }
 
-#requeson{
+#requeson {
     height: 100px;
     width: 100%;
     justify-content: center;
     align-items: center;
 }
 
-h2{
+h2 {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -142,7 +142,7 @@ h2{
     padding: 20px;
 }
 
-*, *:before, *:after{
+*, *:before, *:after {
     margin: 0;
     padding: 0;
     -webkit-box-sizing: border-box;
@@ -150,14 +150,14 @@ h2{
     box-sizing: border-box;
   }
   
-  .main-title{
+  .main-title {
     color: #2d2d2d;
     text-align: center;
     text-transform: capitalize;
     padding: 0.7em 0;
   }
   
-  .container{
+  .container {
     padding: 1em 0;
     float: left;
     width: 50%;
@@ -175,7 +175,7 @@ h2{
     }
   }
   
-  .container .title{
+  .container .title {
     color: #1a1a1a;
     text-align: center;
     margin-bottom: 10px;
@@ -204,11 +204,11 @@ h2{
     transition: all 0.4s ease-in-out 0s;
   }
   
-  .content:hover .content-overlay{
+  .content:hover .content-overlay {
     opacity: 1;
   }
   
-  .content-image{
+  .content-image {
     width: 100%;
   }
   
@@ -229,13 +229,13 @@ h2{
     transition: all 0.3s ease-in-out 0s;
   }
   
-  .content:hover .content-details{
+  .content:hover .content-details {
     top: 50%;
     left: 50%;
     opacity: 1;
   }
   
-  .content-details h3{
+  .content-details h3 {
     color: #fff;
     font-weight: 500;
     letter-spacing: 0.15em;
@@ -243,12 +243,12 @@ h2{
     text-transform: uppercase;
   }
   
-  .content-details p{
+  .content-details p {
     color: #fff;
     font-size: 0.8em;
   }
   
-  .fadeIn-top{
+  .fadeIn-top {
     top: 20%;
   }
 
@@ -256,7 +256,7 @@ h2{
 
 /* FOOTER */
 
-.back{
+.back {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -267,17 +267,17 @@ h2{
     margin: 20px;
   }
 
-  .back a{
+  .back a {
     padding: 10px;
   }
 
-  .back a:hover{
+  .back a:hover {
     color: #fff;
     font-weight: bolder;
     font-size: 30px;
 }
 
-.fin{
+.fin {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -286,7 +286,7 @@ h2{
   height: 50px;
   width: auto;
 }
-footer p{
+footer p {
   font-size: large;
   color: #fff;
   margin-bottom: 20px;

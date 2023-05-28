@@ -5,23 +5,23 @@
     src: url(../Assets/Fonts/Poppins-Light.ttf) format("truetype");
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: "Poppins";
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.main-container{
+.main-container {
     max-width: 1200px;
     width: 90%;
     height: inherit;
 }
 
-h2{
+h2 {
   color: #262262;
 }
 
@@ -29,7 +29,7 @@ h2{
 
 /* ESTILOS HEADER */
 
-header{
+header {
     height: 150px;
     width: 100%;
     background-color: #5A63D4;
@@ -40,7 +40,7 @@ header{
     z-index: 2000;
 }
 
-header .main-container nav{
+header .main-container nav {
     display: flex;
     flex-direction: row;
     list-style: none;
@@ -50,20 +50,20 @@ header .main-container nav{
     align-items: center;
 }
 
-header .main-container nav a{
+header .main-container nav a {
     color: rgb(253, 253, 253);
     padding: 19px;
     font-size: larger;
     margin-bottom: 60px;
 }
 
-header .main-container nav a:hover{
+header .main-container nav a:hover {
     color: #EFB03F;
     font-weight: bolder;
     font-size: 30px;
 }
 
-.logo-container{
+.logo-container {
     position: absolute;
     display: flex;
     height: inherit;
@@ -81,7 +81,7 @@ header .main-container nav a:hover{
     width: 125px;
 }
 
-.slogan-container{
+.slogan-container {
     display: flex;
     color: #EFB03F;
     flex-direction: column;
@@ -95,13 +95,13 @@ header .main-container nav a:hover{
 
 /*ESTILOS QS */
 
-#who{
+#who {
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-#who .contenido-who{
+#who .contenido-who {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -111,17 +111,17 @@ header .main-container nav a:hover{
     margin-bottom: 25px;
 }
 
-#who .contenido-who .texto-who{
+#who .contenido-who .texto-who {
     padding: 0px 25px;
 }
 
-#who .contenido-who .texto-who p{
+#who .contenido-who .texto-who p {
     margin-top: 25px;
     line-height: 2;
     text-align: justify;
 }
 
-#Vacas h2{
+#Vacas h2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -233,7 +233,7 @@ header .main-container nav a:hover{
 
   /* FOOTER */
 
-  .back{
+  .back {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -244,17 +244,17 @@ header .main-container nav a:hover{
     margin: 20px;
   }
 
-  .back a{
+  .back a {
     padding: 10px;
   }
 
-  .back a:hover{
+  .back a:hover {
     color: #fff;
     font-weight: bolder;
     font-size: 30px;
 }
 
-.fin{
+.fin {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -263,7 +263,7 @@ header .main-container nav a:hover{
   height: 50px;
   width: auto;
 }
-footer p{
+footer p {
   font-size: large;
   color: #fff;
   margin-bottom: 20px;
