@@ -17,42 +17,45 @@
                 <p>"Un bocado de felicidad en cada producto"</p>
             </section>
             <nav>
-                <a href="#C">Contáctenos</a>
+                <a href="#Contáctenos">Contáctenos</a>
                 <a href="#MDC">Metodos de Comunicación Directa</a>
             </nav>
         </section>
     </header>
     <main>
-        <section>
-            <h2 id="C">Contáctenos</h2>
-            <form action="./php/formulario.php" method="post" autocomplete="off">
-                <label for="inputNombre">Nombre:</label>
-                <input type="text" id="inputNombre" name="inputNombre" class="estilosinput">
-                <br><br>
-                <label for="">Correo:</label>
-                <input type="email" id="correo" placeholder="test@gmail.com">
-                <br><br>
-                <label for="Telefono">Telefono:</label>
-                <input type="tel" id="Telefono">
-                <br><br>
-                <label for="Comentarios">Comentarios</label>
-                <textarea name="Comentarios" id="Comentarios" cols="30" rows="10" placeholder="Maximo 10 palabras">Escriba su comentario</textarea>
-                <br><br>
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Limpiar">
-            </form>
+        <section id="Contáctenos">
+            <div class="titulo-contacto">
+                <h2>Contáctenos</h2>
+            </div>
+            <div class="form-container main-container">
+                <form action="">
+                    <label for="inputNombre">Nombre</label>
+                    <input type="text" id="inputNombre" name="inputNombre" class="estilosinput">
+                    <label for="">Correo</label>
+                    <input type="email" id="correo" placeholder="test@gmail.com">
+                    <label for="Comentarios">Comentarios</label>
+                    <textarea name="Comentarios" id="Comentarios" cols="30" rows="10"></textarea>
+                    <input class="boton" type="submit" value="Enviar">
+                    <input class="boton" type="reset" value="Limpiar">
+                </form>
+            </div>
         </section>
         <section>
-            <h2 id="MDC">Metodos de Comunicación Directa</h2>
-            <img src="../Assets/Images/Whatsapp-PNG-Images-HD.png" alt="Logo Whatsapp">
-            <a href="https://api.whatsapp.com/send?phone=50684667600&text=!Qué%20rico%20comer%20queso!">Quesería Demísinti</a>
-            <br>
-            <img src="../Assets/Images/instagram-png.png" alt="Logo Instagram">
-            <a href="https://msng.link/o?Queseria_Demisinti_96=ig">Quesería_Demísinti</a>
-            <br>
-            <img src="../Assets/Images/Logo_de_Facebook.png" alt="Logo Facebook">
-            <a href="https://www.facebook.com/Quesería_Demísinti.96Vc?mibextid=LQQJ4d">Quesería_Demísinti</a>
-            <br>
+        <h2 id="MDC">Metodos de Comunicación Directa</h2>
+        <div id="social-media">
+            <div class="social-media-box">
+                <img src="../Assets/Images/whatsapp.png" alt="Icono De Whatsapp">
+                <a href="https://api.whatsapp.com/send?phone=50684667600&text=!Qué%20rico%20comer%20queso!">Quesería Demísinti</a>
+            </div>
+            <div class="social-media-box">
+                <img src="../Assets/Images/instagram (2).png" alt="Icono De Instagram">
+                <a href="https://msng.link/o?Queseria_Demisinti_96=ig">Quesería_Demísinti</a>
+            </div>
+            <div class="social-media-box">
+                <img src="../Assets/Images/facebook (1).png" alt="Icono De Facebook">
+                <a href="https://www.facebook.com/Quesería_Demísinti.96Vc?mibextid=LQQJ4d">Quesería_Demísinti</a>
+            </div>
+        </div>
         </section>
     </main>
     <footer>
