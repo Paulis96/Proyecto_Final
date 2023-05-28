@@ -39,16 +39,11 @@ header{
 header .main-container nav{
     display: flex;
     flex-direction: row;
+    list-style: none;
     height: inherit;
     width: 100%;
     justify-content: flex-end;
     align-items: center;
-}
-
-header .main-container nav{
-    list-style: none;
-    display: flex;
-    flex-direction: row;
 }
 
 header .main-container nav a{
@@ -75,9 +70,9 @@ header .main-container nav a:hover{
 
 .logo-container img {
     display: flex;
+    border-radius: 80px;
     flex-direction: column;
     align-items: flex-end;
-    border-radius: 50%;
     height: 125px;
     width: 125px;
 }
@@ -185,7 +180,7 @@ header .main-container nav a:hover{
       li:nth-child(2) .slide-circulo,
 #slide-3:checked ~ .control-3 ~ .slide-indicador 
       li:nth-child(3) .slide-circulo {
-    color: #428bca;
+    color: #EFB03F;
 }
 #titulo {
     width: 100%;
@@ -207,6 +202,7 @@ header .main-container nav a:hover{
 #hola{
     width: 100%;
     height: 400px;
+    background-color: #EFB03F;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -228,53 +224,58 @@ header .main-container nav a:hover{
 
 }
 
-#comprar {
-    height: 100px;
-    width: 300px;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.btn {
     cursor: pointer;
-    will-change: transform;
+    position: relative;
+    padding: 10px 20px;
+    background: #EFB03F;
+    font-size: 28px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transition: all 1s;
   }
-
-#comprar a{
-    padding: 20px;
-}
   
-  #comprar::before,
-  #comprar::after {
+  .btn:after,
+  .btn:before {
+    content: " ";
+    width: 10px;
+    height: 10px;
     position: absolute;
-    top: 0;
-    left: 0;
-    content: '';
-    display: block;
-    background-color: #EFB03F;
-    transition: all 250ms ease-in-out;
+    border: 0px solid #fff;
+    transition: all 1s;
   }
   
-  #comprar::before {
-    width: 2px;
-    height: 100px;
-    box-shadow: 298px 0 #EFB03F;
+  .btn:after {
+    top: -1px;
+    left: -1px;
+    border-top: 5px solid #5A63D4;
+    border-left: 5px solid #5A63D4;
   }
   
-  #comprar::after {
-    height: 2px;
-    width: 300px;
-    box-shadow: 0 98px #EFB03F;
+  .btn:before {
+    bottom: -1px;
+    right: -1px;
+    border-bottom: 5px solid #5A63D4;
+    border-right: 5px solid #5A63D4;
   }
   
-  #comprar:hover::before {
-    left: -10px;
-    box-shadow: 318px 0 #EFB03F;
+  .btn:hover {
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
   }
   
-  #comprar:hover::after {
-    top: -10px;
-    box-shadow: 0 118px #EFB03F;
+  .btn:hover:before,
+  .btn:hover:after {
+    width: 100%;
+    height: 100%;
   }
+  
+  .data-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }  
 
 /* ESTILOS BODY */
 
