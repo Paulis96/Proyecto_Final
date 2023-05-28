@@ -86,7 +86,7 @@ header .main-container nav a:hover {
     font-size: large;
 }
 
-/* MAIN */
+/* ESTILOS MAIN */
 
 #Contáctenos {
     display: flex;
@@ -150,7 +150,7 @@ h2 {
     align-items: center;
 }
 
-/* FOOTER */
+/* ESTILOS FOOTER */
 
 .back{
     display: flex;

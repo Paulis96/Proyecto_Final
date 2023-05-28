@@ -21,8 +21,6 @@ a {
     height: inherit;
 }
 
-/* ESTILOS GLOBALES */
-
 /* ESTILOS HEADER */
 
 header {
@@ -91,9 +89,7 @@ header .main-container nav a:hover {
     font-size: large;
 }
 
-/* ESTILOS HEADER */
-
-/*MAIN*/
+/* ESTILOS MAIN */
 
 #llegar {
     width: 100%;
@@ -133,7 +129,7 @@ header .main-container nav a:hover {
 }
 
 
-/* FOOTER */
+/* ESTILOS FOOTER */
 
 .back {
     display: flex;

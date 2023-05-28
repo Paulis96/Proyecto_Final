@@ -89,7 +89,7 @@ header .main-container nav a:hover {
     font-size: large;
 }
 
-/* MAIN */
+/* ESTILOS MAIN */
 
 #entrega {
     width: 100%;
@@ -139,7 +139,7 @@ header .main-container nav a:hover {
     color: bisque;
 }
 
-/* FOOTER */
+/* ESTILOS FOOTER */
 
 .back{
     display: flex;

@@ -28,8 +28,6 @@ a {
     height: inherit;
 }
 
-/* ESTILOS GLOBALES */
-
 /* ESTILOS HEADER */
 
 header {
@@ -98,9 +96,7 @@ header .main-container nav a:hover {
     font-size: large;
 }
 
-/* ESTILOS HEADER */
-
-/* PRODUCTOS */
+/* ESTILOS PRODUCTOS */
 
 main {
     background-color: #EFB03F;
@@ -264,9 +260,7 @@ h2 {
     top: 20%;
   }
 
-/*PRODUCTOS*/
-
-/* FOOTER */
+/* ESTILOS FOOTER */
 
 .back {
     display: flex;
@@ -304,5 +298,3 @@ footer p {
   margin-bottom: 20px;
   margin-top: 20PX;
 }
-
-/* FOOTER */

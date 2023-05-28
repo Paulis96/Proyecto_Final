@@ -25,8 +25,6 @@ h2 {
   color: #262262;
 }
 
-/* ESTILOS GLOBALES */
-
 /* ESTILOS HEADER */
 
 header {
@@ -90,10 +88,7 @@ header .main-container nav a:hover {
     font-size: large;
 }
 
-/* ESTILOS HEADER */
-
-
-/*ESTILOS QS */
+/*ESTILOS QUIENES SOMOS */
 
 #who {
     width: 100%;
@@ -130,7 +125,7 @@ header .main-container nav a:hover {
 }
 
 
-/* VACAS */
+/* ESTILOS VACAS */
 
 .container {
     position: relative;
@@ -231,7 +226,7 @@ header .main-container nav a:hover {
     transform: translateY(0px);
   }
 
-  /* FOOTER */
+  /* ESTILOS FOOTER */
 
   .back {
     display: flex;

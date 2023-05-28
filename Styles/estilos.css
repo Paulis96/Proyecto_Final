@@ -21,8 +21,6 @@ a {
     height: inherit;
 }
 
-/* ESTILOS GLOBALES */
-
 /* ESTILOS HEADER */
 
 header {
@@ -85,8 +83,6 @@ header .main-container nav a:hover {
     margin-top: 50px;
     font-size: large;
 }
-
-/* ESTILOS HEADER */
 
 /* ESTILOS CARRUSEL */
 .slide {
@@ -195,7 +191,6 @@ header .main-container nav a:hover {
     text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), 
          -1px 0px 2px rgba(255, 255, 255, 0);
 }
-/* ESTILOS CARRUSEL */
 
 /* ESTILOS BODY */
 
@@ -277,8 +272,6 @@ header .main-container nav a:hover {
     align-items: center;
   }  
 
-/* ESTILOS BODY */
-
 /* ESTILOS FOOTER */
 
 
@@ -313,7 +306,5 @@ footer .social-media .social-media-box img {
     width: 40px;
     height: 40px;
 }
-
-/* ESTILOS FOOTER */
 
 
